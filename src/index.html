@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Velox</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+  </head>
+  <body id="myPage" data-spy="scroll" data-target="#navbar" data-offset="10">
+
+    <div class="wrapper">
+      <div class="wrapper_header">
+
+        <!-- section header -->
+
+        <header id="home">
+          <nav id="navbar">
+            <a class="navbar-brand" href="#home"><img src="img/Logo.png" alt=""></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <div class="navbarNav collapse">
+              <ul class="navbar-nav">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div id="header">
+            <h1>Velox One Page Template</h1>
+            <h4>Clean, Responsive, customizable one page template </h4>
+            <a class="btn btn-hvr" href="#">Get Started Now</a>
+          </div>
+        </header>
+      </div>
+
+
+      <!-- section services-->
+
+      <section id="services">
+        <h2>Our Services</h2>
+        <hr/>
+        <div class="container">
+          <div class="thumbnail">
+            <span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+            <h3>Logo DESIGN</h3>
+            <hr/>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          </div>
+          <div class="thumbnail">
+            <span><img src="img/icon-design.png" alt="desing"></span>
+            <h3>Web Design</h3>
+            <hr/>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          </div>
+          <div class="thumbnail">
+            <span><img src="img/icon-branding.png" alt="branding"></span>
+            <h3>branding</h3>
+            <hr/>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          </div>
+          <div class="thumbnail">
+            <span><img src="img/icon-illustrations.png" alt="illustrations"></span>
+            <h3>illustrations</h3>
+            <hr/>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          </div>
+        </div>
+      </section>
+
+
+      <!--section portfolio-->
+
+      <section id="portfolio">
+        <h2>portfolio</h2>
+        <hr/>
+        <div class="container">
+          <ul>
+            <li><a class="active" id="all" onclick="toggleFotogallery()" href="#">all</a></li>
+            <li><a id="illustration" onclick="toggleFotogallery()" href="#">illustrations</a></li>
+            <li><a id="logo" onclick="toggleFotogallery()" href="#">logo</a></li>
+            <li><a id="branding" onclick="toggleFotogallery()" href="#">branding</a></li>
+            <li><a id="desing" onclick="toggleFotogallery()" href="#">web design</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="card" data-target="logo">
+            <img class="image" src="img/Image1.jpg" alt="Agency - PSD Template">
+            <p>Agency - PSD Template</p>
+          </div>
+          <div class="card" data-target="branding">
+            <img class="image" src="img/Image2.jpg" alt="Pure Vodka Branding">
+            <p>Pure Vodka Branding</p>
+          </div>
+          <div class="card" data-target="desing">
+            <img class="image" src="img/Image3.jpg" alt="Web Design">
+            <p>Web Design</p>
+          </div>
+          <div class="card" data-target="logo">
+            <img class="image" src="img/Image4.jpg" alt="Everest Logo">
+            <p>Everest Logo</p>
+          </div>
+          <div class="card" data-target="desing">
+            <img class="image" src="img/Image5.jpg" alt="Poster Design">
+            <p>Poster Design</p>
+          </div>
+          <div class="card" data-target="illustration">
+            <img class="image" src="img/Image6.jpg" alt="illustration">
+            <p>illustration</p>
+          </div>
+        </div>
+        <div style="text-align: center;"><a class="btn btn-hvr" href="#">SHOW MORE</a></div>
+      </section>
+
+
+      <!--section brands-->
+
+      <section id="brands">
+        <h2>Recent Bands we’ve worked with</h2>
+        <hr/>
+        <div class="container">
+          <div class="brand"><img src="img/brand1.png" alt="bakery"></div>
+          <div class="brand"><img src="img/brand2.png" alt="cavalier"></div>
+          <div class="brand"><img src="img/brand3.png" alt="marvest co"></div>
+          <div class="brand"><img src="img/brand4.png" alt="landlock"></div>
+          <div class="brand"><img src="img/brand5.png" alt="spectrum"></div>
+          <div class="brand"><img src="img/brand6.png" alt="home energy"></div>
+        </div>
+      </section>
+
+
+      <!--section testimonials-->
+
+      <section id="testimonials">
+        <h2>See what others are saying about us</h2>
+        <hr/>
+        <div class="container">
+          <div class="mySlider">
+            <div class="multiple-items"><img src="img/face.png" alt="linda">
+              <p>“Lorem ipsum dolor sit amet, consectetur</p>
+              <p>adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p>ut labore et dolore magna aliqua. ”</p>
+              <br/>
+              <p>Linda from <a href="#" target="_blank">linda@gmail.com</a></p>
+            </div>
+            <div class="multiple-items"><img src="img/face2.png" alt="marek">
+              <p>“Lorem ipsum dolor sit amet, consectetur</p>
+              <p>adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p>ut labore et dolore magna aliqua. ”</p>
+              <br/>
+              <p>Marek from <a href="#" target="_blank">marek@gmail.com</a></p>
+            </div>
+            <div class="multiple-items"><img src="img/face3.png" alt="tomash">
+              <p>“Lorem ipsum dolor sit amet, consectetur</p>
+              <p>adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p>ut labore et dolore magna aliqua. ”</p>
+              <br/>
+              <p>Tomash from <a href="#" target="_blank">tomash@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--section contact-->
+
+      <section id="contact">
+        <div class="container">
+          <div class="contact">
+            <h3>contact us</h3>
+            <h4>our address</h4>
+            <address>House No,11132, Sector 31, Gurgaon  122001  India</address>
+            <h4>call us</h4>
+            <p>+ 91-9876543210</p>
+            <p>+ 01262219018</p>
+            <h4>email us</h4>
+            <p><a href="#">contactus@email.com</a></p>
+          </div>
+          <div class="wrapper-footer">
+            <div class="footerNav">
+              <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#contact">contact us</a></li>
+              </ul>
+            </div>
+            <div class="form">
+              <table class="table">
+                <tr>
+                  <th>Name:</th>
+                  <th>Subject:</th>
+                </tr>
+                <tr>
+                  <td><input type="text" class="form-control" placeholder=""></td>
+                  <td><input type="text" class="form-control" placeholder=""></td>
+                </tr>
+              </table>
+              <table>
+                <tr>
+                  <th>You message:</th>
+                </tr>
+                <tr>
+                  <td>
+                    <textarea cols="" rows="6" class="form-control"></textarea></td>
+                </tr>
+              </table>
+              <a type="submit" value="Submit" class="btn btn-hvr">Send message</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--section footer-->
+
+      <div id="btn-scrol"><a class="btn btn-round" href="#home"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+      <section id="footer">
+        <div class="container">
+          <p>MEGATRON © 2015 OSTH</p>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
