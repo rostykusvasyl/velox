@@ -7,7 +7,6 @@ $susy: (
     'spread': 'narrow', //narrow (none), wide (one), or wider (two)
     'container-spread': 'wide',
 );
-
 body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
@@ -33,7 +32,7 @@ body {
     h1 {
         padding-top: 155px;
         font-size: 58.333px;
-        font-family: "Lora";
+        font-family: "Helvetica Neu";
         font-weight: bold;
     }
     h4 {
@@ -88,7 +87,7 @@ h2 {
     text-align: center;
     margin: 0 0 20px;
     font-size: 41.667px;
-    font-family: "Lora";
+    font-family: "Helvetica Neu";
     color: rgb(58, 63, 75);
     font-weight: bold;
     text-transform: uppercase;
@@ -119,7 +118,7 @@ section {
 #services {
     .thumbnail {
         text-align: center;
-        max-width: span(3);
+        max-width:span(3);
         .fa {
             color: rgb(0, 165, 255);
             font-size: 40px;
@@ -130,7 +129,7 @@ section {
         h3 {
             padding: 20px 0;
             font-size: 18px;
-            font-family: "SourceSansPro";
+            font-family: "Helvetica Neu";
             color: rgb(58, 63, 75);
             text-transform: uppercase;
             line-height: 1.2;
@@ -188,7 +187,7 @@ section {
             line-height: 1.2;
             text-decoration: none;
             font-size: 14px;
-            font-family: "Lora";
+            font-family: "Helvetica Neu";
             color: rgb(58, 63, 75);
             font-weight: bold;
             text-transform: uppercase;
@@ -261,7 +260,7 @@ section {
         }
         p {
             font-size: 24px;
-            font-family: "Lora";
+            font-family: "Helvetica Neu";
             color: rgb(58, 63, 75);
             line-height: 1.25;
             text-align: center;
@@ -303,7 +302,7 @@ section {
         h3 {
             text-transform: capitalize;
             font-size: 28px;
-            font-family: "Lora";
+            font-family: "Helvetica Neu";
             color: rgb(255, 255, 255);
             font-weight: bold;
             line-height: 0.72;
